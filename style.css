@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 80px;
+    width: 100px;
+}
+.logo{
+    background-image: url('amazon-logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5 solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    font-size: 0.8rem;
+}
+.add-first{
+    color:#cccccc;
+    margin-left: 15px;
+}
+.address-second{
+    
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    margin-left: 10px;
+    background-color: red;
+    /* width: 6px; */
+    border-radius: 10px;
+    height: 40px;
+}
+.nav-search:hover{
+    border:solid rgb(238, 238, 112);
+}
+.search-input{
+    align-items: center;
+    width: 500px;
+    border:none;
+}
+.search-select{
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: rgb(173, 109, 25);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+span{
+    font-size: 0.9rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.orders{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart{
+    display: flex;
+}
+.cart-icon{
+    font-size: 1.5rem;
+}
+.cart{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.panel{
+    background-color: #131921;
+    color:white;
+    display:flex;
+    text-align: center;
+    height:39px;
+}
+.panel-all{
+    margin: 10px;
+    display:flex;
+    text-align: center;
+}
+.panel-op{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    width:600.59px;
+   
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+/* herosection has started */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 600px;
+    background-size: cover;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-message{
+    height: 40px;
+    width:80%;
+    background-color: white;
+    margin-top: 340px;
+    font-size: 15px;
+    display: flex;
+    color: rgb(26, 2, 2);
+    align-items: center;
+    justify-content: center ;
+}
